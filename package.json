@@ -2,16 +2,33 @@
   "name": "employee-crud-api",
   "version": "1.0.0",
   "description": "Aplicação CRUD com api.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon",
+    "lint": "eslint --ext .js, -f ./node_modules/eslint-friendly-formatter . --fix",
+    "prepush": "npm run lint",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/sabrinaa0408/employee-crud-api.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nodejs",
+    "api",
+    "crud",
+    "azure-functions",
+    "express",
+    "github-actions",
+    "swa",
+    "serverless",
+    "azure",
+    "postgressql",
+    "sql",
+    "javascript"
+
+  ],
+  "author": "Sabrina da Silva",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sabrinaa0408/employee-crud-api/issues"
